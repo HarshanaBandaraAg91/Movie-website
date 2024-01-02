@@ -55,7 +55,7 @@ header{
     color: white;
 }
 
-.nav li:hover a{
+.nav li:hover{
     color: var(--primary);
 }
 
@@ -78,4 +78,29 @@ header{
     border-radius: 4px;
     padding: 0 10px 0 45px !important;
     backdrop-filter: blur(10px);
+}
+
+.search input::placeholder{
+    color: white;
+}
+
+.search i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-right: 1px solid #ffffff;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('img/avatar-bg.jpg') no-repeat;
 }
