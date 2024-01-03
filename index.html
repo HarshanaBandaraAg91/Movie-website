@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>Movie website</title>
     </head>
     <body>
@@ -46,7 +47,33 @@
                 </div>
             </div>
 
-            <div class="carousel-box"></div>
+            <div class="carousel-box">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="./img/avatar-sh.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/hunter killer-sh.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/johnwick -sh.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/mission imposible-sh.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/raven-sh.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./img/spiderman-sh.jpg" alt="">
+                    </div>
+                </div>
+            </div>
                <a href="#" class="play">
                <i class="fa fa-play-circle-0" aria-hidden="true"> Watch Trailer</i>
                </a>
@@ -60,5 +87,10 @@
         <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materalize/1.0.0/js/materlize.min.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.carousel').carousel();
+            });
+        </script>
     </body>
 </html>
