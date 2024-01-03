@@ -102,5 +102,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('img/avatar-bg.jpg') no-repeat;
+    background: url('../img/avatar-bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: 0.5s;
 }
