@@ -262,3 +262,18 @@ header{
 .play:hover{
     color: var(--primary);
 }
+
+.sci{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sci a{
+    color: #ffffff;
+    text-decoration: none;
+}
